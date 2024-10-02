@@ -6,7 +6,7 @@ Every month, our front office executive spends nearly an hour manually searching
 To address this issue, I have taken several steps to create a monthly cash report for September 2024 that focuses on cash card and UPI transactions. By streamlining this process, we can significantly reduce the time required to generate the report.
 
 ### Steps Taken:
-1. **Data Download**: Downloaded the transaction dataset from the workplace system, which includes various types of transactions for September 2024.
+1. **Data Download**: Downloaded the transaction dataset named **CashierSep24** from the workplace system, which includes various types of transactions for September 2024.
 2. **Data Conversion**: Converted the downloaded dataset into CSV format for easier manipulation and analysis.
 3. **Data Cleaning and Transformation**: Loaded the CSV file into Excel Power Query for data cleaning and transformation, including removing unnecessary columns and ensuring data integrity.
 4. **Column Quality Check and Filtering**: Analyzed column quality, formatted data types correctly, and filtered out null values while retaining only relevant payment modes (cash card and UPI).
@@ -23,7 +23,7 @@ The purpose of this report is to provide management with a detailed overview of 
 ## Steps Taken
 
 ### Step 1: Data Download
-- **Dataset Acquisition**: Downloaded the transaction dataset from the workplace system. This dataset includes various types of transactions for September 2024, such as:
+- **Dataset Acquisition**: Downloaded the transaction dataset named **CashierSep24** from the workplace system. This dataset includes various types of transactions for September 2024, such as:
   - Cash Card Transactions
   - UPI Transactions
   - Online Transfers
@@ -73,6 +73,9 @@ The purpose of this report is to provide management with a detailed overview of 
 - **Report Formatting**:
   - Added a heading that includes the company name and report title for clarity.
   - Applied formatting styles (such as font size, colors, and borders) to enhance visual appeal and make the report attractive and easy to read.
+
+## Final Output Report
+The final output report is named **CashierReportSep24**, which provides a clear overview of cash card and UPI transactions according to their respective dates.
 
 ## Conclusion
 The initial steps of downloading, converting, cleaning, checking column quality, filtering, grouping, pivoting, loading into Excel, and formatting have been successfully completed. The final report provides a clear overview of cash card and UPI transactions according to their respective dates.
